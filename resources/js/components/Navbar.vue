@@ -20,20 +20,52 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
-                         <li class="nav-item">
-                            <router-link to="/noticias" class="nav-link">Institucional</router-link>
-                        </li>
-                        <li class="nav-item dropdown">
+                         <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    Wilmer
+                                    Institucional
                                 </a>
 
                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </li>
+                                    <a class="dropdown-item" href="#">Misión y Visión</a>
+                                    <a class="dropdown-item" href="#">Autoridad</a>
+                                    <a class="dropdown-item" href="#">Logo Oficial</a>
+                                    <a class="dropdown-item" href="#">Organigrama Dinámico</a>
+                                    <a class="dropdown-item" href="#">Fondo de Apoyo Gerencial</a>
+                                    <a class="dropdown-item" href="#">Formulario Único de Trámite(FUT)</a>
+                                    <a class="dropdown-item" href="#">Direcciones Regionales</a>
+                                    <a class="dropdown-item" href="#">Directorio Regional</a>
+                                    <a class="dropdown-item" href="#">Directorio Telefónico</a>
+                                    <a class="dropdown-item" href="#">Noticias</a>
+                               </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    Documentos
+                                </a>
+
+                               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Documentos de Gestión</a>
+                                    <a class="dropdown-item" href="#">Normatividad Regional</a>
+                               </div>
+                        </li>
+                        <li class="nav-item">
+                            <router-link to="/noticias" class="nav-link">Convocatoria</router-link>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    Transparencia
+                                </a>
+
+                               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Portal de Transparencia Estandar (PTE)</a>
+                                    <a class="dropdown-item" href="#">Documetos de Gestión</a>
+                                    <a class="dropdown-item" href="#">POI</a>
+                                    <a class="dropdown-item" href="#">PEI</a>
+                                    <a class="dropdown-item" href="#">Documentos Normativos</a>
+                                    <a class="dropdown-item" href="#">Informe sobre Actividades Ejecutadas en el Marco del LED</a>
+                                    <a class="dropdown-item" href="#">Formato de Apendice 2-OCI</a>
+                               </div>
+                        </li>
 
                     </ul>
                 </div>
@@ -41,18 +73,16 @@
     </nav>
     <div class="nav-scroller bg-body shadow-sm position-sticky" style="background-color: rgba(5, 74, 145, 0.376) !important;">
       <nav class="container nav nav-underline" aria-label="Secondary navigation">
-        <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
-        <a class="nav-link" href="#">
-          Friends
-          <span class="badge bg-light text-dark rounded-pill align-text-bottom">27</span>
-        </a>
-        <a class="nav-link" href="#">Explore</a>
-        <a class="nav-link" href="#">Suggestions</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
+        <div class="col-md-3 bg-1" align="left">
+           <a href="http://digital.regionhuanuco.gob.pe/registro/mesa-partes-virtual/3" class="nav-link active" target="_blank">
+           MESA DE PARTES VIRTUAL
+           </a>
+        </div>
+        <div class="col-md-3 bg-2" align="left">
+          <a href="http://digital.regionhuanuco.gob.pe/registro/mesa-partes-virtual/3" class="nav-link active" target="_blank">
+          DIRECCIÓN Y UNIDADES
+          </a>
+        </div>
       </nav>
     </div>
  </div>
@@ -122,12 +152,25 @@ body {
 }
 
 .nav-underline .nav-link:hover {
-  color: #007bff;
+  background: #ffffff;
+  opacity: 50%;
+  color: #000000;
+  font-weight: bold;
 }
 
 .nav-underline .active {
   font-weight: 500;
-  color: #343a40;
+  color: #ffffff;
+  text-align: center;
+  
+}
+
+.bg-1 {
+  background: #E73434;
+}
+
+.bg-2 {
+  background: #6FAC93;
 }
 
 .bg-purple {

@@ -20,7 +20,7 @@
               </ul>
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><router-link to="/noticias" class="nav-link">Institucional</router-link></li>
-                <li class="nav-item"><a class="nav-link" href="#"> Menu item </a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> Menu </a></li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Dropdown right </a>
                     <ul class="dropdown-menu dropdown-menu-end fade-down">

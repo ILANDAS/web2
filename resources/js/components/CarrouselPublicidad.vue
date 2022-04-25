@@ -7,7 +7,7 @@
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner">
+                <div class="carousel-inner" style="max-width: 1300px; height: 700px; margin: auto; object-fit: cover;">
                     <div class="carousel-item active" data-bs-interval="10000">
                         <img :src="ruta+'./../img/banner(1).jpg'" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
@@ -54,5 +54,9 @@
 </script>
 
 <style lang="css" scoped>
-
+.container {
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
 </style>
