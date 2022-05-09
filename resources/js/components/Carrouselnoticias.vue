@@ -15,7 +15,7 @@
                                     <img src="http://gestionportales.regionhuanuco.gob.pe/storage/notas-prensa/11-1-20220401-181038.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class=" card-text lh-1 text-sm">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-primary">Ver Más</a>
                                     </div>
                                 </div>
@@ -25,7 +25,7 @@
                                     <img src="http://gestionportales.regionhuanuco.gob.pe/storage/notas-prensa/11-1-20220331-175936.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class=" card-text lh-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-primary">Ver Más</a>
                                     </div>
                                 </div>
@@ -35,7 +35,7 @@
                                     <img src="http://gestionportales.regionhuanuco.gob.pe/storage/notas-prensa/11-1-20220401-165459.JPG" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class=" card-text lh-1 text-sm">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-primary">Ver Más</a>
                                     </div>
                                 </div>
@@ -45,7 +45,7 @@
                                     <img src="http://gestionportales.regionhuanuco.gob.pe/storage/notas-prensa/11-1-20220331-163014.JPG" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class=" card-text lh-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-primary">Ver Más</a>
                                     </div>
                                 </div>
@@ -61,7 +61,7 @@
                                     <img src="http://gestionportales.regionhuanuco.gob.pe/storage/notas-prensa/11-1-20220401-181038.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class=" card-text lh-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-primary">Ver Más</a>
                                     </div>
                                 </div>
@@ -71,7 +71,7 @@
                                     <img src="http://gestionportales.regionhuanuco.gob.pe/storage/notas-prensa/11-1-20220401-181038.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class=" card-text lh-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-primary">Ver Más</a>
                                     </div>
                                 </div>
@@ -81,7 +81,7 @@
                                     <img src="http://gestionportales.regionhuanuco.gob.pe/storage/notas-prensa/11-1-20220401-181038.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class=" card-text lh-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-primary">Ver Más</a>
                                     </div>
                                 </div>
@@ -91,7 +91,7 @@
                                     <img src="http://gestionportales.regionhuanuco.gob.pe/storage/notas-prensa/11-1-20220401-181038.jpg" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class=" card-text lh-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         <a href="#" class="btn btn-primary">Ver Más</a>
                                     </div>
                                 </div>
@@ -100,14 +100,17 @@
                     </div>
 
                 </div>
+
                 <button class="carousel-control-prev" type="button" data-bs-target="#noticias" data-bs-slide="prev" >
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
+
                 <button class="carousel-control-next" type="button" data-bs-target="#noticias" data-bs-slide="next" >
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
+
                 </div>
                 
             </div>
@@ -120,8 +123,22 @@
      props:['ruta'],
   
  }
+ 
+
 </script>
 
 <style lang="css" scoped>
+
+.container {
+    
+}
+
+.carousel-control-next{
+    right: 10px !important;
+}
+
+.carousel-control-prev{
+    left: 10px !important;
+}
 
 </style>

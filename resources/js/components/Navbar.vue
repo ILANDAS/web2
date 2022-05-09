@@ -1,6 +1,6 @@
 <template>
  <div>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm " style="background:#2745a0 !important;">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm " style="background:#0044a2 !important;"><!-- #2745a0 -->
             <div class="container">
                 <!-- <a class="navbar-brand" href="/">
                     Laravel
@@ -80,7 +80,7 @@
         </div>
         <div class="col-md-3 bg-2" align="left">
           <a href="http://digital.regionhuanuco.gob.pe/registro/mesa-partes-virtual/3" class="nav-link active" target="_blank">
-          DIRECCIÓN Y UNIDADES
+          MESA DE PARTES VIRTUAL DIRECCIÓN Y UNIDADES
           </a>
         </div>
       </nav>

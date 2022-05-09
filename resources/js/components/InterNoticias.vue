@@ -180,40 +180,6 @@ p{
  align-content: center;
 }
 
-.msn {
-        margin-left: 50px;
-        background: rgba(29, 55, 202, 0.5);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 93px;;
-        width: 400px;
-        height: 200px;
-        text-align: center;
-        padding: 1px;
-    }
-      
-    .msn1 {
-        font-size: 20px;
-        font-weight: bold;
-        color: #000000;
-        margin-top: 40px;
-    }
-      
-    .msn2 {
-        font-size: 12px;
-        font-weight: bold;
-    }
-
-.col-4 .text-center{
-   position:static;
-   width: 450px;
-   height: 200px;
-   left: 20px;
-   top: 200px;
-
-   background: rgba(29, 55, 202, 0.5);
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-   border-radius: 93px;
-}
 
 hr{
    height: 3px;
